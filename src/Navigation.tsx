@@ -1,15 +1,30 @@
+import { UserIcon } from "@heroicons/react/24/solid";
+import { ShoppingCartIcon } from "@heroicons/react/24/solid";
+import {
+  SunIcon,
+  MoonIcon,
+} from "@heroicons/react/24/solid";
+
 export default function Navigation() {
     return (
-        <div className="bg-stone-900 text-white sticky top-0 z-50">
-            <div className="max-w-5xl px-4 py-4 flex item-center justify-between">
+        <div className="rounded-lg bg-black/50 backdrop-blur-md text-white sticky top-0.5 z-50">
+            <div className="max-w-8xl px-4 py-4 flex item-center justify-between">
                 <h1 className="text-xl font-bold">
-                    STORE
+                    057 skateboarding
                 </h1>
 
-                <div className="flex item-center gap-6">
-                    <button className="">
-                        Test Button
-                    </button>
+                <div className="flex item-center gap-3">
+
+        <button className="p-2 rounded-full bg-gray-200 dark:bg-gray-800 text-black dark:text-white transition flex items-center justify-center">
+          <SunIcon className="w-5 h-5" />
+        </button>
+
+<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
+  <ShoppingCartIcon className="w-5 h-5" /> 
+</button>
+<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
+  <UserIcon className="w-5 h-5" /> 
+</button>
                 </div>
             </div>
         </div>
