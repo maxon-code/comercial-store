@@ -8,7 +8,13 @@ export default function Navigation() {
 
                 <div className="flex item-center gap-6">
                     <button className="">
-                        Button
+                        Button1ss
+                    </button>
+                                        <button className="">
+                        Button1ss
+                    </button>
+                                        <button className="">
+                        Button1ss
                     </button>
                 </div>
             </div>
