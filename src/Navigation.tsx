@@ -1,9 +1,6 @@
-import { UserIcon } from "@heroicons/react/24/solid";
-import { ShoppingCartIcon } from "@heroicons/react/24/solid";
-import {
-  SunIcon,
-  MoonIcon,
-} from "@heroicons/react/24/solid";
+import { UserIcon,ShoppingCartIcon, InformationCircleIcon } from "@heroicons/react/24/solid";
+
+
 
 export default function Navigation() {
     return (
@@ -16,7 +13,7 @@ export default function Navigation() {
                 <div className="flex item-center gap-3">
 
         <button className="p-2 rounded-full bg-gray-200 dark:bg-gray-800 text-black dark:text-white transition flex items-center justify-center">
-          <SunIcon className="w-5 h-5" />
+          <InformationCircleIcon className="w-5 h-5" />
         </button>
 
 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
