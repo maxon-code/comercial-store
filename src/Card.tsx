@@ -128,7 +128,7 @@ export function Card({ product: { id, name, price, category, count, image } }: C
                         <button
                             onClick={() => {
                                 if (!isAdded) {
-                                    addToCart(id);
+                                    addToCart(String(id));
                                 }
                                 setIsMenuOpen(true);
                             }}

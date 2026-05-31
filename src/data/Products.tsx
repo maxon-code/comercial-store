@@ -23,7 +23,7 @@ const products = [
     price: 100,
     category: 'Decks',
     count: 10,
-    image: "../public/decks/santa-cruz-classic.png",
+    image: "../decks/santa-cruz-classic.png",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const products = [
     price: 110,
     category: 'Decks',
     count: 10,
-    image: "../public/decks/hayley-clean-cut.png",
+    image: "./decks/hayley-clean-cut.png",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const products = [
     price: 110,
     category: 'Trucks',
     count: 0,
-    image: "../public/decks/silver-truck.png",
+    image: "./decks/silver-truck.png",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const products = [
     price: 110,
     category: 'Trucks',
     count: 4,
-    image: "../public/decks/silver-truck.png",
+    image: "./decks/silver-truck.png",
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const products = [
     price: 135,
     category: 'Shoes',
     count: 10,
-    image: "../public/clothes/vans-shoes.png",
+    image: "./clothes/vans-shoes.png",
   },
 ];
 
